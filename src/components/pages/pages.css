@@ -54,10 +54,16 @@ body{
     border-left: 1.5px solid white;
     padding: 0px 5px;
 }
+.NavBar{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+}
 .Nav{
     text-align: center;
     padding: 15px;
-    background-color: white;
+    
 }
 .Nav a{
     text-decoration: none;
@@ -187,11 +193,26 @@ body{
 }
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: linear-gradient(90deg, #0d1f2d, #274c5e);
     padding: 20px;
     color: white;
     border-radius: 0 0 10px 10px;
+}
+
+.Toggle{
+  display: none;
+  height: 40px;
+  width: 80px;
+  border: none;
+  background: none;
+  font-size: 2rem;
+  color: #0d1f2d;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 @media (max-width: 992px) {
@@ -199,7 +220,6 @@ footer{
     flex-direction: column;
     text-align: center;
   }
-
   .Header img {
     margin-bottom: 15px;
   }
@@ -227,7 +247,6 @@ footer{
     flex-direction: column;
     padding: 15px;
   }
-
   .Header img {
     width: 120px;
     height: 120px;

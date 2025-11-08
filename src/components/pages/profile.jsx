@@ -17,15 +17,18 @@ const Profile = () => {
                         <p>
                             <a href="mailto:emonmahmud.cse@gmail.com">emon mahmud dot cse </a> <span className='Line'></span> Phone: +8801949771731
                         </p>
-                            <a href="github.com/emonmah">GitHub </a>
+                            <a href="https://github.com/emonmah">GitHub </a>
                             <span className='Line'></span>
-                            <a href="linkedin.com/in/emon-mahmud/"> LinkedIn </a>
+                            <a href="https://linkedin.com/in/emon-mahmud/"> LinkedIn </a>
                             <span className='Line'></span>
                             <a href="https://codeforces.com/profile/Agantuk"> Codeforces</a>
                             <p className='Address'>Address: H#80, Road#02, Dhakkinkhan, Dhaka, Bangladesh</p>
                     </div>
                 </div>
-                <nav className='Nav'>
+                <div className='NavBar'>
+                    <nav className='Nav'>
+                    <button className='Toggle'>☰</button>
+                    <div>
                     <a href="#summary">Summary</a>
                     <a href="#education">Education</a>
                     <a href="#thesis">Thesis</a>
@@ -33,7 +36,11 @@ const Profile = () => {
                     <a href="#contacts">Contests</a>
                     <a href="#extra">Extra</a>
                     <a href="#reference">References</a>
+                    </div>
+                    
                 </nav>
+                </div>
+                    
             </div>
     );
 }
