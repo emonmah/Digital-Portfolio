@@ -19,9 +19,11 @@ const Profile = () => {
                         </p>
                             <a href="https://github.com/emonmah">GitHub </a>
                             <span className='Line'></span>
-                            <a href="https://linkedin.com/in/emon-mahmud/"> LinkedIn </a>
+                            <a href="https://www.linkedin.com/in/emon-mahmud/"> LinkedIn </a>
                             <span className='Line'></span>
-                            <a href="https://codeforces.com/profile/Agantuk"> Codeforces</a>
+                            <a href="https://codeforces.com/profile/Agantuk"> Codeforces </a>
+                            <span className='Line'></span>
+                            <a href="https://leetcode.com/u/mood_emon/">LeetCode</a>
                             <p className='Address'>Address: H#80, Road#02, Dhakkinkhan, Dhaka, Bangladesh</p>
                     </div>
                 </div>
@@ -34,6 +36,7 @@ const Profile = () => {
                     <a href="#thesis">Thesis</a>
                     <a href="#projects">Projects</a>
                     <a href="#contacts">Contests</a>
+                    <a href="#certificate">Certificates</a>
                     <a href="#extra">Extra</a>
                     <a href="#reference">References</a>
                     </div>

@@ -8,6 +8,8 @@ import Contest from './contest';
 import Extra from './extra';
 import Reference from './reference';
 import Footer from './footer';
+import Certificates from './certificates';
+import Technology from './technology';
 
 
 class Portfolio extends React.Component{
@@ -20,6 +22,8 @@ class Portfolio extends React.Component{
             <Thesis/>
             <Project/>
             <Contest/>
+            <Certificates/>
+            <Technology/>
             <Extra/>
             <Reference/>
             <Footer/>
